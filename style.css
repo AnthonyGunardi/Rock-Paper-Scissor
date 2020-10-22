@@ -1,0 +1,25 @@
+header {
+  top: 0;
+  padding: 0;
+  font-size: 300%;
+}
+
+#titlescreen {
+  background-image: url(../media/title.jpg) ;
+  background-size: cover;
+  font-size: 125%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.buttonstart {
+  font-size: 250%;
+  color: white;
+  background-color: #008CBA;
+  padding: 15px 32px;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
