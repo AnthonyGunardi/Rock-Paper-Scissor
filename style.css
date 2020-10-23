@@ -4,8 +4,25 @@ header {
   font-size: 300%;
 }
 
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  margin: 0;
+  bottom: 0;
+  width: 100%;
+}
+
 #titlescreen {
   background-image: url(../media/title.jpg) ;
+  background-size: cover;
+  font-size: 125%;
+}
+
+#mainscreen {
+  background-image: url(../media/mainscreen.jpg) ;
   background-size: cover;
   font-size: 125%;
 }
@@ -14,12 +31,30 @@ header {
   text-align: center;
 }
 
-.buttonstart {
+.button-start {
   font-size: 250%;
   color: white;
-  background-color: #008CBA;
+  background-color: #c40f6a;
   padding: 15px 32px;
+  border-width: 10px;
   border-radius: 4px;
-  text-align: center;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.button-select {
+  font-size: 150%;
+  color: white;
+  background-color: #ba0028;
+  padding: 15px 42px;
+  border-width: 10px;
+  border-radius: 4px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.message {
+  font-size: 150px;
+}
+
+.score {
+  color: darkslateblue;
 }
